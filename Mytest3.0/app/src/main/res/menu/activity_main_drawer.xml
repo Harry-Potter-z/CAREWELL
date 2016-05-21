@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="看护设置" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="用户帮助" />
+        <item
+            android:id="@+id/nav_bodyreport"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="身体状况报告" />
+        <item
+            android:id="@+id/nav_sleepreport"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="睡眠状况报告" />
+    </group>
+
+    <item android:title="设备">
+        <menu>
+            <item
+                android:id="@+id/nav_bracelet"
+                android:icon="@drawable/ic_menu_share"
+                android:title="健康智环" />
+            <item
+                android:id="@+id/nav_pillow"
+                android:icon="@drawable/ic_menu_send"
+                android:title="智能看护枕" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/page7_background"
+    android:weightSum="3">
+
+    <Button
+        android:id="@+id/buttonback"
+        android:layout_width="18dp"
+        android:layout_height="20dp"
+        android:background="@drawable/left1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"/>
+
+
+
+    <Button
+        android:id="@+id/botton1"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:background="@drawable/ceyicebutton"
+        android:layout_marginBottom="183dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="测试结果"
+        android:id="@+id/text1"
+        android:textColor="@color/text_color"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:layout_alignTop="@+id/botton1"
+        android:layout_toRightOf="@+id/buttonback"
+        android:layout_toEndOf="@+id/buttonback" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="90/110"
+        android:id="@+id/hr"
+        android:textSize="30dp"
+        android:textColor="@color/text_color"
+        android:layout_marginBottom="70dp"
+        android:layout_above="@+id/botton1"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
